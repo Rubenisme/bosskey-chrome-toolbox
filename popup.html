@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title></title>
+<style type="text/css">
+  body {
+    width: 280px;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding: 5px 3px;
+    font-family: arial, sans-serif;
+  }
+  #hit {
+    display: none;
+  }
+  .disable {
+    color: #bbbbbb;
+    cursor: default;
+  }
+  ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  li{
+    padding: 0 5px 0 23px;
+    margin: 0;
+    list-style: none;
+    line-height: 25px;
+    text-align: left;
+    border: 1px #ffffff solid;
+    height: 22px;
+    clear: both;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  li:hover {
+    border-radius: 3px 3px;
+	background: -webkit-gradient(linear, left top, left bottom,
+		color-stop(0, #fff),  color-stop(0.4, hsl(215, 67%, 97%)), color-stop(0.41, hsl(213, 48%, 95%)));
+	border: solid 1px #c5cdd3;
+  }
+
+  #quicklyCommand li div {
+    cursor: pointer;
+  }
+
+  .disable:hover {
+    border: 1px #ffffff solid;
+    background: #ffffff;
+  }
+
+  .left {
+    float: left;
+    overflow: hidden;
+  }
+  .left img {
+    position: absolute;
+    margin-top: 3px;
+    left: 10px;
+  }
+  .right {
+    color: #a1a192;
+    float: right;
+  }
+
+  .separator {
+    border-top: 1px solid #dddddd;
+    height: 0px;
+    margin: 3px 2px;
+  }
+
+  #muteName {
+    padding-left: 25px;
+    margin-left: -25px;
+  }
+
+
+</style>
+<script type="text/javascript" src="convenience_util.js"></script>
+<script type="text/javascript" src="database_operator.js"></script>
+<script type="text/javascript" src="key_util.js"></script>
+
+</head>
+<body>
+<div id="quicklyMenu" name="isWindowsOnly"></div>
+
+<script type="text/javascript" src="popup.js"></script>
+</body>
+</html>
